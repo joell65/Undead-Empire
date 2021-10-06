@@ -198,7 +198,6 @@ item =
 GM:AddStartingItem("antidoteshot",		ITEMCAT_TOOLS,			20,				"weapon_zs_antidoteshot")
 item.SkillRequirement = SKILL_U_ANTITODESHOT
 
-GM:AddStartingItem("aegis kit",			ITEMCAT_DEPLOYABLES,			45,				"weapon_zs_barricadekit")
 GM:AddStartingItem("arscrate",			ITEMCAT_DEPLOYABLES,			35,				"weapon_zs_arsenalcrate")
 .Countables = "prop_arsenalcrate"
 GM:AddStartingItem("resupplybox",		ITEMCAT_DEPLOYABLES,			35,				"weapon_zs_resupplybox")
@@ -223,6 +222,7 @@ GM:AddStartingItem("zapper",			ITEMCAT_DEPLOYABLES,			30,				"weapon_zs_zapper",
 item.Countables = "prop_zapper"
 item.NoClassicMode = true
 
+GM:AddStartingItem("aegis kit",			ITEMCAT_DEPLOYABLES,			45,				"weapon_zs_barricadekit")
 GM:AddStartingItem("manhack",			ITEMCAT_DEPLOYABLES,			35,				"weapon_zs_manhack").Countables = "prop_manhack"
 item =
 GM:AddStartingItem("drone",				ITEMCAT_DEPLOYABLES,			35,				"weapon_zs_drone",				nil,							nil,									nil,											function(pl) pl:GiveEmptyWeapon("weapon_zs_drone") pl:GiveAmmo(1, "drone") pl:GiveAmmo(60, "smg1") end)
