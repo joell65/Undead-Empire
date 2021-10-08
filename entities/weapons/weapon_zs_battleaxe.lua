@@ -26,7 +26,7 @@ SWEP.UseHands = true
 SWEP.Primary.Sound = Sound("Weapon_USP.Single")
 SWEP.Primary.Damage = 24
 SWEP.Primary.NumShots = 1
-SWEP.Primary.Delay = 1.35
+SWEP.Primary.Delay = 0.19
 
 SWEP.Primary.ClipSize = 16
 SWEP.Primary.Automatic = false
